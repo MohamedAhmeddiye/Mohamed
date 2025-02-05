@@ -1,1 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Academic ID Card</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background: linear-gradient(to right, #4e54c8, #8f94fb);
+            font-family: Arial, sans-serif;
+        }
+        .id-card {
+            width: 350px;
+            background: white;
+            padding: 20px;
+            border-radius: 15px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+            text-align: center;
+            transition: transform 0.3s ease-in-out;
+        }
+        .id-card:hover {
+            transform: scale(1.05);
+        }
+        .photo {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            border: 3px solid #4e54c8;
+            object-fit: cover;
+            transition: transform 0.3s;
+        }
+        .photo:hover {
+            transform: rotate(360deg);
+        }
+        .info {
+            margin-top: 15px;
+        }
+        .info h2 {
+            margin: 5px 0;
+            color: #333;
+        }
+        .info p {
+            margin: 3px 0;
+            color: #555;
+        }
+        .contact {
+            font-weight: bold;
+            color: #4e54c8;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="id-card">
+        <img src="https://medahmedportfolio.vercel.app/assets/me21-2d3a2f1b.png" alt="Profile Photo" class="photo">
+        <div class="info">
+            <h2>Mohamed Ahmed Koumba</h2>
+            <p><strong>Specialization:</strong> Master Finance et fiscalité</p>
+            <p><strong>ID:</strong>B026264</p>
+            <p><strong>Stage:</strong> 1er Année (M1)</p>
+            <p><strong>Faculty:</strong> Faculté de science juriduque et Economique</p>
+            <p><strong>University Email:</strong> B026264@fsje.e-una.mr</p>
+            <p class="contact">📞 +222 44 12 12 45</p>
+        </div>
+    </div>
+
+</body>
+</html>
+
 
